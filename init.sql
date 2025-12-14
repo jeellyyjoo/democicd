@@ -1,1 +1,2 @@
 CREATE DATABASE democicd_pg;
+CREATE DATABASE sonar;
