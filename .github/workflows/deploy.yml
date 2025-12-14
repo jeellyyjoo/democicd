@@ -21,8 +21,6 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml
       - name: Analyze with SonarCloud
-        run: mvn clean verify sonar:sonar -Dsonar.token=${{ secrets.SONAR_TOKEN }}
-      - name: Analyze with SonarCloud
 
           # You can pin the exact commit or the version.
           # uses: SonarSource/sonarcloud-github-action@v2.2.0
