@@ -31,7 +31,7 @@
         <jacoco.version>0.8.14</jacoco.version>
         <sonar.projectKey>democicd</sonar.projectKey>
         <sonar.organization>democicd</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.host.url>http://localhost:9001</sonar.host.url>
         <sonar.java.binaries>target/classes</sonar.java.binaries>
     </properties>
     <dependencies>
