@@ -29,9 +29,7 @@
     <properties>
         <java.version>21</java.version>
         <jacoco.version>0.8.14</jacoco.version>
-<!--        <sonar.projectKey>jeellyyjoo_democicd</sonar.projectKey>-->
-<!--        <sonar.organization>jeellyyjoo</sonar.organization>-->
-<!--        <sonar.host.url>https://sonarcloud.io</sonar.host.url>-->
+        <sonar.organization>jeellyyjoo</sonar.organization>
         <sonar.java.binaries>target/classes</sonar.java.binaries>
     </properties>
     <dependencies>
