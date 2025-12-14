@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5439/feelm_db
+    url: jdbc:postgresql://localhost:5438/democicd_pg
     username: ttsk
     password: ttsk
     driver-class-name: org.postgresql.Driver

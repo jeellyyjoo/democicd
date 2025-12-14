@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: democicd_pg
+    environment:
+      POSTGRES_USER: ttsk
+      POSTGRES_PASSWORD: ttsk
+    ports:
+      - "5438:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - democicd
+
+volumes:
+  postgres_data:
+
+networks:
+  democicd:
+    driver: bridge

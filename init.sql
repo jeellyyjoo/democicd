@@ -1,0 +1,1 @@
+CREATE DATABASE democicd_pg;
