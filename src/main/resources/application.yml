@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5439/feelm_db
+    username: ttsk
+    password: ttsk
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: democicd
+
+
+server:
+  port: 8081
